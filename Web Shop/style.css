@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
 }
 body{
     height: 100vh;
@@ -85,15 +86,15 @@ a{
     text-align: center; 
     margin-top: 12px;
 }
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-self: center;
     flex-wrap: wrap;
-    margin-bottom: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
+    margin: 30px;
+    padding: 15px;
+    font-size: 15px;
+    flex-direction: column;
 }
 .row .item{
     width: 25%;
@@ -101,21 +102,20 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 .row{
     display: flex;
     width: 100%;
-    float: left;
-    padding: 35px 0x;
-    margin: 35px;
-    margin-right: 35px;
+    /* float: left; */
+    margin: auto;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .row img{
-    height: 150px;
-    width: 150px;
+    max-width: 90%;
+    max-height: 100%;
+    height: auto;
 }
 .btnall{
     height: 35px;
@@ -132,7 +132,6 @@ a{
     font-family:Arial, Helvetica, sans-serif;
     flex-direction: center;
     align-items: center;
-    margin-left: 350px;
 
 }
 .btn .span{
@@ -144,6 +143,7 @@ a{
     color: #ffffff;
     padding-top: 60px;
     width: 100%;
+    font-size: small;
 }
 .leftfooter{
     display: flex;
@@ -258,4 +258,8 @@ a{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+p{
+    text-align: start;
+    font-weight: bold;
 }
