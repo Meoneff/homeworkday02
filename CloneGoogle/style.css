@@ -1,0 +1,159 @@
+body{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#header{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header > p, #header > svg, #header > img {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 0 5px
+}
+
+.ava{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.product{
+    width: 16px;
+    height: 16px;
+}
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    display: flex;
+    width: 100%;
+    height: 35%;
+    align-items:end;
+    justify-content: center;
+}
+.logogg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search {
+    width: 35%;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+#search > input {
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+#search > span {
+    width: 20px;
+    margin: 0 8px;
+}
+#search > img{
+width: 30px;
+background:none
+}
+#button{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+}
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 20px;
+}
+#language{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    
+}
+#language > p{
+    font-size: 13px;
+}
+#footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 20px; */
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+}
+.vung{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+   border-bottom: 1px solid #dadce0;
+}
+.vung > p{
+    font-family: Arial,  sans-serif;
+    color: #70757a;
+    padding-left: 5px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+   
+}
+.left > p, .right > p{
+ padding: 10px;
+ color: #70757a;
+}
+.right{
+    width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+}

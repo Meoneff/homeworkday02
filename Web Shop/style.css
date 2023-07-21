@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    
+}
+.topheader {
+    display: flex;
+    width: 100%;
+    background: #363636;
+    height: 45px;
+    flex-direction: column;
+}
+.mainheader {
+    display: flex;
+    align-items:center;
+    padding: 0 80px;
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+.rightheader{
+    display: flex;
+    justify-content: end;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    
+}
+.leftheader{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+.imagelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.menubar{
+    font-family:Arial, Helvetica, sans-serif
+}
+.searchmenu{
+    display: flex;
+    align-items:center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+.iconmenu{
+    display: flex;
+    justify-content: end;
+
+}
+.menubar{
+    display: flex;
+    justify-content: start;
+    padding: 0px 5px;
+    margin: 5px 5px 10px 40px;
+    align-items: center;
+}
+.custom-select {
+    background: transparent;
+    padding: 0 5px;
+    font-family: inherit;
+    font-size: inherit;
+}
+.clear span{
+    flex: 1; 
+    text-align: center; 
+    margin-top: 12px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.row .item{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    float: left;
+    padding: 35px 0x;
+    margin: 35px;
+    margin-right: 35px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row img{
+    height: 150px;
+    width: 150px;
+}
+.btnall{
+    height: 35px;
+    display: flex;
+    text-align: center;
+    line-height: 35px;
+    background: #ed1c24;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    border: solid 1px #ed1c24;
+    padding: 0 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: center;
+    align-items: center;
+    margin-left: 350px;
+
+}
+.btn .span{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white
+}
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 60px;
+    width: 100%;
+}
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+.twofooter{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    padding-right: 50px;
+}
+.centerfooter{
+    display: flex;
+    padding-bottom: 17px;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 250px;
+}
+.rightfooter{
+    display: flex;
+    padding-bottom: 17px;
+    justify-content: end;
+    flex-direction: column;
+}
+.rowfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.containerfooter {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topfoter {
+    padding-bottom: 30px;
+}
+
+.top-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.top-footer .col {
+    flex: 1;
+}
+
+
+.top-footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.social a {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.toggle-mn li {
+    list-style: none;
+}
+
+.toggle-mn li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.fot_contact_item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.fot_contact_item span {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.fot_copyright {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.backtop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.backtop i {
+    vertical-align: middle;
+}
+.fot_copyright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
