@@ -1,7 +1,7 @@
 let name = prompt("Hãy nhập tên của bạn đi bạn trẻ: ")
-let old = prompt('Hãy nhập tuổi của bạn đi bạn trẻ: ');
-let y = new Date();
-let year = y.getFullYear()-old;
+let old = prompt('Hãy nhập tuổi của bạn đi bạn trẻ: ')
+let y = new Date()
+let year = y.getFullYear()-old
 function tinhCanChi(year) {
   const can = year % 10;
   const chi = year % 12;
@@ -95,4 +95,4 @@ function ktraNamNhuan(y){
 }
 
 console.log("Chào mừng "+name+", bạn "+old+" tuổi,"+ "sinh năm "+year);
-console.log("Đây là năm "+ tinhCanChi(old) +" và đây là " + ktraNamNhuan(year));
+console.log("Đây là năm "+ tinhCanChi(year) +" và đây là " + ktraNamNhuan(year));
